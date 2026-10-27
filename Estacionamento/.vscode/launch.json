@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Executar no Microsoft Edge",
+      "file": "${workspaceFolder}/Estacionamento/cadastro.html",
+      "userDataDir": false
+    }
+  ]
+}
+    
+
+       
+
+        
+    
+        
+        
+        

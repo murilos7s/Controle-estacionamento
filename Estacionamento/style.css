@@ -1,0 +1,58 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #531de6;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #16b61e;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  background-color: #0077cc;
+  color: rgb(179, 212, 31);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#listaVagas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.vaga {
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.disponivel {
+  background-color: #14c914;
+}
+
+.ocupada {
+  background-color: #b40d0d;
+}
